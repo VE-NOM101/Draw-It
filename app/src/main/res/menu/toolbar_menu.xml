@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Share"
+        android:icon="@drawable/share_svgrepo_com"
+        app:showAsAction="always"
+        android:id="@+id/share"
+        />
+    <item
+        android:title="Home"
+        android:icon="@drawable/folder_svgrepo_com"
+        app:showAsAction="always"
+        android:id="@+id/show"
+        />
+    <item
+        android:title="Save"
+        android:icon="@drawable/diskette_save_svgrepo_com"
+        app:showAsAction="always"
+        android:id="@+id/save"
+        />
+</menu>

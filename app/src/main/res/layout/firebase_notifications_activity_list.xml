@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground"
+    android:id="@+id/root_notification_list_activity"
+    tools:context=".WebView.Firebase_Notification_List_Class">
+
+    <TextView
+        android:id="@+id/bookmark_list_text_view_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/blue_button_background"
+        android:elevation="20dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Latest updates and recommendations"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17dp"
+
+        android:textStyle="bold" />
+
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/listView_firebase_notification_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bookmark_list_text_view_notification"
+        android:divider="@android:color/holo_blue_dark"
+        android:dividerHeight="2dp"
+        android:listSelector="#E0E6A7"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bottom_nav_home_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/listView_firebase_notification_list"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/bookmark_button_24"
+        app:fabSize="normal"
+        app:maxImageSize="30dp"
+
+        />
+</RelativeLayout>

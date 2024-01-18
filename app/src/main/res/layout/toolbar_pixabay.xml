@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/toolbar_color"
+    android:id="@+id/pixabay_toolbar"
+    app:title="Pixabay"
+    android:layout_gravity="left"
+    app:titleTextColor="@color/colorPrimaryDark"
+    app:logo="@drawable/pixabayicon"
+    app:menu="@menu/pixabay_menu"
+    >
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="General">
+        <menu>
+            <item android:id="@+id/about_drawer"
+                android:title="About"
+                android:icon="@drawable/about" />
+            <item android:id="@+id/bookmark_drawer"
+                android:title="Bookmark"
+                android:icon="@drawable/bookmark_svgrepo_com"/>
+            <item android:id="@+id/profile_drawer"
+                android:title="Profile"
+                android:icon="@drawable/profile_sheild"/>
+        </menu>
+    </item>
+    <item android:title="Cloud">
+        <menu>
+            <item android:id="@+id/upload_cloud"
+                android:title="Upload to Cloud"
+                android:icon="@drawable/baseline_cloud_upload_24" />
+            <item android:id="@+id/cloud_storage"
+                android:title="Cloud Storage"
+                android:icon="@drawable/baseline_cloud_circle_24" />
+
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item android:id="@+id/logout_drawer"
+                android:title="Logout"
+                android:icon="@drawable/logout" />
+        </menu>
+    </item>
+</menu>

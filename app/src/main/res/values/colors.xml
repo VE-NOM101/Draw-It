@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#656565</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="gris_light">#e1dfe1</color>
+    <color name="toolbar_color">#3F51B5</color>
+
+
+
+    <color name="progressbar_color_first">#304DFF</color>
+
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="myColor">#31274f</color>
+    <color name="title">#D8316A</color>
+    <color name="txtBack">#BACDDD</color>
+
+    <color name="card1">#F3EDBF</color>
+    <color name="card2">#BADEFB</color>
+    <color name="card3">#DDDDDD</color>
+    <color name="card4">#C2F4BC</color>
+    <color name="card5">#F04BCB</color>
+    <color name="card6">#87E3DA</color>
+    <color name="card7">#47F1C0</color>
+
+    <color name="text_color">#3F51B5</color>
+    <color name="background">#8BC34A</color>
+    <color name="background2">#595858</color>
+
+    <color name="border">#8692f7</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+    <color name="Red">#E82C1E</color>
+</resources>
