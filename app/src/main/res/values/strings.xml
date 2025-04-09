@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DrawIT</string>
+    <string name="openDrawer">Open Navigation Drawer</string>
+    <string name="closeDrawer">Close Navigation Drawer</string>
+    <string name="myPhoneNumber">+88001763160077</string>
+    <string name="about">Hey! I am Choyan.As a student immersed in the world of CSE I\'ve cultivated a passion for technology and artistic expression.</string>
+</resources>

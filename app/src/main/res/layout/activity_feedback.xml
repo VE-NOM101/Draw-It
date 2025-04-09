@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feedback_background"
+    tools:context=".FeedbackAct">
+    <include layout="@layout/feedback_toolbar"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/feedback_input"
+        app:layout_constraintVertical_bias=".2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/headline_container"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:helperTextTextColor="@color/Red"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/Red"
+            app:startIconDrawable="@drawable/header">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/headline_text"
+                android:hint="Headline"
+                android:inputType="textEmailSubject"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/details_container"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:helperTextTextColor="@color/Red"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/Red"
+            app:startIconDrawable="@drawable/baseline_description_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/details_text"
+                android:hint="Details"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:textColor="@color/lavender"
+            android:layout_marginRight="50dp"
+            android:id="@+id/send_btn"
+            android:text="Send"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textColor="@color/Red"
+            android:id="@+id/clear_btn"
+            android:text="Clear"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/salsa"
+        android:gravity="center"
+        android:text="Thank you for your review. It matters to me ❤️"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bookmark_background"
+    tools:context=".Bookmark.Sqlite_StudentListActivity"
+    android:id="@+id/root_bookmarks_list_activity"
+    >
+
+    <TextView
+        android:id="@+id/bookmark_list_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/blue_button_background"
+        android:elevation="20dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Bookmark Manager:Long Press To Delete One"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/bookmark_button_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookmark_list_text_view"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/refreshing_ID_bookmarks_page"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/refresh_bookmark"
+            android:elevation="20dp"
+            android:text="Refresh"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/delete_all_bookmarks"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/delete_bookmark"
+            android:elevation="20dp"
+            android:text="Delete All "
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_above="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bookmark_button_linearlayout"
+        android:divider="@android:color/holo_blue_dark"
+        android:dividerHeight="2dp"
+        android:listSelector="#E0E6A7"
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bottom_nav_home_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ListView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#03A9F4"
+        android:src="@drawable/bookmark_button_24"
+        app:fabSize="normal"
+        app:maxImageSize="30dp" />
+
+        />
+</RelativeLayout>

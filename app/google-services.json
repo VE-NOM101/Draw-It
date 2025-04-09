@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "700310143088",
+    "project_id": "drawit-45ef9",
+    "storage_bucket": "drawit-45ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700310143088:android:106135d6110c5163d4b4b5",
+        "android_client_info": {
+          "package_name": "com.example.drawit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoU13SxUgofPJb0KGOMjCz462rdtfdpbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
