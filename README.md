@@ -63,39 +63,39 @@ Here’s a beautifully structured and elaborated version of your project descrip
 
 ## 📸 Screenshots
 > **
-> <img src="/resource_tut/1.jpg" />
-> <img src="/resource_tut/2.jpg" />
-> <img src="/resource_tut/3.jpg" />
-> <img src="/resource_tut/4.jpg" />
-> <img src="/resource_tut/5.jpg" />
-> <img src="/resource_tut/6.jpg" />
-> <img src="/resource_tut/7.jpg" />
-> <img src="/resource_tut/8.jpg" />
-> <img src="/resource_tut/9.jpg" />
-> <img src="/resource_tut/10.jpg" />
-> <img src="/resource_tut/11.jpg" />
-> <img src="/resource_tut/12.jpg" />
-> <img src="/resource_tut/13.jpg" />
-> <img src="/resource_tut/14.jpg" />
-> <img src="/resource_tut/15.jpg" />
-> <img src="/resource_tut/16.jpg" />
-> <img src="/resource_tut/17.jpg" />
-> <img src="/resource_tut/18.jpg" />
-> <img src="/resource_tut/19.jpg" />
-> <img src="/resource_tut/20.jpg" />
-> <img src="/resource_tut/21.jpg" />
-> <img src="/resource_tut/22.jpg" />
-> <img src="/resource_tut/23.jpg" />
-> <img src="/resource_tut/24.jpg" />
-> <img src="/resource_tut/25.jpg" />
-> <img src="/resource_tut/26.jpg" />
-> <img src="/resource_tut/27.jpg" />
-> <img src="/resource_tut/28.jpg" />
-> <img src="/resource_tut/29.jpg" />
-> <img src="/resource_tut/30.jpg" />
-> <img src="/resource_tut/31.jpg" />
-> <img src="/resource_tut/32.jpg" />
-> <img src="/resource_tut/33.jpg" />
+> <img src="/resource_tut/1.jpg" height="600px" width="300px" />
+> <img src="/resource_tut/2.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/3.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/4.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/5.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/6.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/7.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/8.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/9.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/10.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/11.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/12.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/13.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/14.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/15.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/16.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/17.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/18.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/19.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/20.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/21.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/22.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/23.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/24.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/25.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/26.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/27.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/28.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/29.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/30.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/31.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/32.jpg" height="600px" width="300px"/>
+> <img src="/resource_tut/33.jpg" height="600px" width="300px"/>
 
 ---
 
